@@ -1,0 +1,16 @@
+AEGISFARM 35% SOFTWARE
+
+If you double-click frontend/index.html:
+A themed preview dashboard will open directly. This avoids the blank white page that can happen when a Vite React entry file is opened as file://.
+
+For the FULL INTERACTIVE React application:
+1. Open a terminal in frontend/
+2. Run: npm install
+3. Run: npm run dev
+4. Open the localhost URL printed by Vite.
+
+Backend:
+1. Open a second terminal in backend/
+2. Create/activate a Python virtual environment
+3. Run: pip install -r requirements.txt
+4. Run: uvicorn app.main:app --reload --port 8000
